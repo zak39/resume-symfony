@@ -11,8 +11,14 @@ class CvController extends AbstractController
     #[Route('/', name: 'app_cv')]
     public function index(): Response
     {
+        $projectDir = $this->getParameter('kernel.project_dir');
+        
+        $json = file_get_contents($projectDir . '/import/cv.json');
+
+        $cv = json_decode($json, true);
+
         return $this->render('cv/index.html.twig', [
-            'controller_name' => 'CvController',
+            'cv' => $cv,
         ]);
     }
 }

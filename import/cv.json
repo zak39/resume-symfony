@@ -1,0 +1,318 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Baptiste Fotia",
+    "label": "Développeur Full Stack (PHP & JavaScript/Vue) chez Arawa",
+    "image": "",
+    "email": "fotia.baptiste@hotmail.com",
+    "phone": "0683025038",
+    "url": "",
+    "summary": "",
+    "location": {
+      "countryCode": "FR",
+      "address": "France"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "baptiste-fotia",
+        "url": "https://www.linkedin.com/in/baptiste-fotia/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Arawa",
+      "position": "Développeur Full Stack",
+      "startDate": "2020-12-31",
+      "endDate": "",
+      "highlights": [],
+      "summary": "- Développeur de l'application Workspace pour Nextcloud\n- Création d'un programme de migration de fichier de Nextcloud vers du stockage objet S3 compatible\n- Création d'une application de template d'email\n- Encadrement d'un stagiaire\n- Proposition d'amélioration de la DX dans le forum communautaire de Nextcloud",
+      "url": "https://www.linkedin.com/company/arawa/"
+    },
+    {
+      "name": "Air France",
+      "position": "Alternance : DevOps Automation",
+      "startDate": "2017-09-30",
+      "endDate": "2020-09-30",
+      "highlights": [],
+      "summary": "Automatisation de la dépose (ou désinstallation) des applications tous\nenvironnements confondus (développement, recette, qualification, production) et\ndes différentes stacks techniques (serveur d'application, base de données, batch,\netc.) avec l'outil Ansible. Les demandes de dépose sont réalisées sous Jira et\nrécupérées pour automatiser le processus avec ses API.",
+      "url": "https://www.linkedin.com/company/air-france/",
+      "location": "Zone industrielle Nord, 2 avenue de fontainebleau, 94310 Orly"
+    },
+    {
+      "name": "Videomuseum",
+      "position": "Alternance : Administrateur Système et Réseau Linux",
+      "startDate": "2016-09-30",
+      "endDate": "2017-09-30",
+      "highlights": [],
+      "summary": "- Industrialisation avec Ansible\n- Virtualisation/Cloud Privé\n- Migration des Systèmes d'exploitation\n- Support Informatique de niveau 2\n- Documentation\n- Analyse de nouvelles solutions techniques et Préconisation des mises à jour de sécurité",
+      "url": "",
+      "location": "6 rue Beaubourg, 75004 Paris"
+    },
+    {
+      "name": "Demos Formations",
+      "position": "Technicien Support Informatique",
+      "startDate": "2015-12-31",
+      "endDate": "2016-06-30",
+      "highlights": [],
+      "summary": "- Gestion du parc informatique du domaine formation\n- Mise en place d’un script PowerShell de récupération d’information du matériel informatique\n- Animation des réunions hebdomadaires\n- Intervention sur les différents sites en France\n- Mise en place d’un Wake On Lan",
+      "url": "https://www.linkedin.com/company/demos-group/",
+      "location": "20 rue de l'arcade, Paris 75008"
+    },
+    {
+      "name": "ENIL Bio",
+      "position": "Administrateur réseaux",
+      "startDate": "2015-02-28",
+      "endDate": "2015-03-31",
+      "highlights": [],
+      "summary": "- Mise en place et configuration d’OCS NG Inventory et de GLPI\n- Mise en place d’un proxy sous IPCOP\n- Réalisation de la documentation technique et utilisateur des missions\n- Réalisation d’un schéma de l’infrastructure réseau sous Visio 2013",
+      "url": "",
+      "location": "Poligny (39800)"
+    },
+    {
+      "name": "Préfecture du Jura",
+      "position": "Développeur PHP",
+      "startDate": "2014-05-31",
+      "endDate": "2014-06-30",
+      "highlights": [],
+      "summary": "- Mise en place d’une génération de publipostage\n- Mise en place d’un mini-moteur de recherche et d’un tri des catégories avec une zone de liste \n- Création d’une table de base de données",
+      "url": "",
+      "location": "Lons-Le-Saunier (39000)"
+    },
+    {
+      "name": "UFR Science Langage de l'Homme et de la Société",
+      "position": "Technicien Informatique Réseaux",
+      "startDate": "2013-05-31",
+      "endDate": "2013-06-30",
+      "highlights": [],
+      "summary": "- Réalisation d’un schéma de l’infrastructure réseau sous Visio 2010\n- Remise à niveau des baies de brassages",
+      "url": ""
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "ITESCIA",
+      "area": "Programmation / développeur informatique, général",
+      "studyType": "Master Ingénierie Logiciels et Systèmes",
+      "startDate": "2017-12-31",
+      "endDate": "2020-12-31",
+      "score": "Obtenu",
+      "courses": []
+    },
+    {
+      "institution": "Lycée Pré Saint-Sauveur",
+      "area": "Assistant Technique en Milieu Familial et Collectif (ATMFC)",
+      "studyType": "Certificat d'Aptitude Professionnel",
+      "startDate": "2007-12-31",
+      "endDate": "2009-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Lycée Louis Pergaud",
+      "area": "Informatique",
+      "studyType": "BTS SIO Option SISR",
+      "startDate": "2012-12-31",
+      "endDate": "2015-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Université Grenoble Alpes",
+      "area": "Administration et Sécurité des Réseaux (ASUR)",
+      "studyType": "Licence Professionnelle",
+      "startDate": "2016-12-31",
+      "endDate": "2017-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Lycée Sainte-Marie Fénelon",
+      "area": "Système Électronique et Numérique (SEN)",
+      "studyType": "Brevet d'Étude Professionnel",
+      "startDate": "2009-12-31",
+      "endDate": "2011-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Lycée Sainte-Marie Fénelon",
+      "area": "Système Électronique et Numérique (SEN)",
+      "studyType": "Baccalauréat Professionnel",
+      "startDate": "2011-12-31",
+      "endDate": "2012-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Démarrez votre projet avec Python",
+      "issuer": "OpenClassrooms",
+      "startDate": "2017-04-30",
+      "url": "https://openclassrooms.com/course-certificates/5407048025"
+    },
+    {
+      "name": "Découvrez les solutions CMS",
+      "issuer": "OpenClassrooms",
+      "startDate": "2017-06-30",
+      "url": "https://openclassrooms.com/fr/course-certificates/6793263152"
+    },
+    {
+      "name": "Certificat de réussite : Apprenez à Apprendre",
+      "issuer": "OpenClassrooms",
+      "startDate": "2019-08-31"
+    },
+    {
+      "name": "Apprenez à programmer avec JavaScript",
+      "issuer": "OpenClassrooms",
+      "startDate": "2020-10-31",
+      "url": "https://openclassrooms.com/fr/course-certificates/1826362285"
+    },
+    {
+      "name": "Écrivez du JavaScript pour le web",
+      "issuer": "OpenClassrooms",
+      "startDate": "2020-11-30",
+      "url": "https://openclassrooms.com/fr/course-certificates/4671933145"
+    },
+    {
+      "name": "Créez une application web avec Vue.js",
+      "issuer": "OpenClassrooms",
+      "startDate": "2022-01-31",
+      "url": "https://openclassrooms.com/fr/course-certificates/6348268788"
+    },
+    {
+      "name": "Programmez en orienté objet en PHP",
+      "issuer": "OpenClassrooms",
+      "startDate": "2023-07-31",
+      "url": "https://openclassrooms.com/fr/course-certificates/8007246568"
+    },
+    {
+      "name": "Concevez votre site web avec PHP et MySQL",
+      "issuer": "OpenClassrooms",
+      "startDate": "2023-04-30",
+      "url": "https://openclassrooms.com/fr/course-certificates/8191435046"
+    },
+    {
+      "name": "Adoptez une architecture MVC en PHP",
+      "issuer": "OpenClassrooms",
+      "startDate": "2023-05-31",
+      "url": "https://openclassrooms.com/fr/course-certificates/2669196112"
+    },
+    {
+      "name": "Écrivez du PHP maintenable avec les principes SOLID et les design patterns",
+      "issuer": "OpenClassrooms",
+      "startDate": "2024-03-31",
+      "url": "https://openclassrooms.com/fr/course-certificates/7211844163"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Framework Symfony",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Vue.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "GitHub",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bash",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Debian",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Gitlab",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Scrum",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DevOps",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ansible",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Laravel",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "fr",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
