@@ -1,0 +1,30 @@
+<div class="my-6">
+    <h1 id="pro_projects" class="text-3xl font-bold sm:text-4xl mb-16 ml-4 sm:ml-0">Company projects</h1>
+    <div class="flex gap-8 flex-wrap flex-row justify-center sm:justify-start">
+        {% for project in cv.pro_project %}
+        <div class="card bg-base-100 w-80 sm:w-96 shadow-xl shadow-base-200">
+            <figure>
+                <img
+                src={{ asset(project.img) }}
+                alt={{ project.name }} />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    {{ project.name }}
+                </h2>
+                <p>{{ project.summary }}</p>
+                {% if not project.url_repo == '' %}
+                    <a href={{ project.url_repo }} alt={{ project.name }}>
+                        <button class="btn btn-sm btn-outline btn-primary">voir le projet</button>
+                    </a>
+                {% endif %}
+                <div class="card-actions justify-end">
+                    {% for skill in project.skill %}
+                        <div class="badge badge-secondary">{{ skill }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

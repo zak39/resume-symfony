@@ -1,8 +1,14 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}CV{% endblock %}
+{% block title %}Baptiste Fotia - Portfolio{% endblock %}
 
 {% block body %}
+    {{ include('cv/_header.html.twig' )}}
     {{ include('cv/_hero.html.twig') }}
     {{ include('cv/_experience.html.twig') }}
+    {{ include('cv/_skill.html.twig') }}
+    {{ include('cv/_side_project.html.twig') }}
+    {{ include('cv/_company_project.html.twig') }}
+    {{ include('cv/_certifications.html.twig') }}
+    {{ include('cv/_footer.html.twig') }}
 {% endblock %}

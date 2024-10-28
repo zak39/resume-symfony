@@ -1,7 +1,8 @@
 <div class="my-4">
-    <h2 id="experience" class="text-3xl font-bold sm:text-4xl mb-16 ml-4 sm:ml-0">Expériences</h2>
+    <h1 id="certifications" class="text-3xl font-bold sm:text-4xl mb-16 ml-4 sm:ml-0">Certifications</h1>
+
     <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
-        {% for job in cv.work %}
+        {% for certificate in cv.certificates %}
         <li>
             {# boule avec le check #}
             <div class="timeline-middle">
@@ -24,14 +25,12 @@
                 <div class="timeline-end mb-10">
             {% endif %}
                     <time class="font-mono italic">
-                        {{ job.startDate|date('j F Y') }}
-
-                        {% if not job.endDate == '' %}
-                            jusqu'au {{ job.endDate|date('j F Y') }}
-                        {% endif %}                    
+                        {{ certificate.startDate|date('j F Y') }}                  
                     </time>
-                    <div class="text-lg font-black">{{ job.position }} chez {{ job.name }}</div>
-                    {{ job.summary }}
+                    <div class="text-lg font-black">{{ certificate.name }}</div>
+                    {% if certificate.url is defined and not certificate.url == '' %}
+                        <a class="text-primary" href={{ certificate.url }}>Voir la certification</a>
+                    {% endif %}
                 </div>
             {% if not loop.last %}
                 <hr />
