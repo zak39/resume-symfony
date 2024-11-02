@@ -12,7 +12,7 @@
                 <h2 class="card-title">
                     {{ project.name }}
                 </h2>
-                <p>{{ project.summary }}</p>
+                <p>{{ project.summary|capitalize }}</p>
                 {% if not project.url_repo == '' %}
                     <a href={{ project.url_repo }} alt={{ project.name }}>
                         <button class="btn btn-sm btn-outline btn-primary">voir le projet</button>
