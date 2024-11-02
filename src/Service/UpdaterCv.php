@@ -156,7 +156,7 @@ class UpdaterCv {
                 [
                     'name' => 'Address book sf',
                     'img' => 'images/side-projects/address-book-symfony.png',
-                    'summary' => 'plateforme web d\'un carnet d\'adresse',
+                    'summary' => 'plateforme web d\'un carnet d\'adresse.',
                     'skill' => [
                         'symfony',
                         'bootstrap',
@@ -166,7 +166,7 @@ class UpdaterCv {
                 [
                     'name' => 'Dark force sf',
                     'img' => 'images/side-projects/dark-force-sf.png',
-                    'summary' => 'encyclopédie des personnages, vaisseaux et planètes de l`\univers de star wars.',
+                    'summary' => 'encyclopédie des personnages, vaisseaux et planètes de l\'univers de star wars.',
                     'skill' => [
                         'symfony',
                         'PicoCSS',
