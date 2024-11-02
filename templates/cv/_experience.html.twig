@@ -24,10 +24,10 @@
                 <div class="timeline-end mb-10">
             {% endif %}
                     <time class="font-mono italic">
-                        {{ job.startDate|date('j F Y') }}
+                        {{ job.startDate|date('j F Y')|format_datetime('long', 'none', locale: 'fr') }}
 
                         {% if not job.endDate == '' %}
-                            jusqu'au {{ job.endDate|date('j F Y') }}
+                            jusqu'au {{ job.endDate|date('j F Y')|format_datetime('long', 'none', locale: 'fr') }}
                         {% endif %}                    
                     </time>
                     <div class="text-lg font-black">{{ job.position }} chez {{ job.name }}</div>

@@ -25,7 +25,7 @@
                 <div class="timeline-end mb-10">
             {% endif %}
                     <time class="font-mono italic">
-                        {{ certificate.startDate|date('j F Y') }}                  
+                        {{ certificate.startDate|date('j F Y')|format_datetime('long', 'none', locale: 'fr') }}                  
                     </time>
                     <div class="text-lg font-black">{{ certificate.name }}</div>
                     {% if certificate.url is defined and not certificate.url == '' %}
