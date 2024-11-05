@@ -30,6 +30,7 @@ class CvController extends AbstractController
         $cv = $this->updater->addSideProject($cv);
         $cv = $this->updater->reverseOrderCertificates($cv);
         $cv = $this->updater->addSummary($cv);
+        $cv = $this->updater->addPseudo($cv);
 
         return $this->render('cv/index.html.twig', [
             'cv' => $cv,

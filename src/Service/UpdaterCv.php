@@ -208,4 +208,9 @@ class UpdaterCv {
         $cv['basics']['summary'] = 'Je suis développeur Full-Stack avec une expérience en développement Back-End notamment avec PHP, mais également dans le Front-End avec Vue.js. Je monte actuellement en compétence sur Symfony.';
         return $cv;
     }
+
+    public function addPseudo(array $cv): array {
+        $cv['basics']['profiles']['pseudo'] = 'zakode';
+        return $cv;
+    }
 }
