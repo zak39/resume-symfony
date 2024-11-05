@@ -1,0 +1,8 @@
+.env.test
+.git
+.gitignore
+phpunit.xml.dist
+README.md
+tests
+var
+*.diff
