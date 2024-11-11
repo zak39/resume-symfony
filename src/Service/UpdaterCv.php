@@ -105,7 +105,7 @@ class UpdaterCv {
             [
                 [
                     'name' => 'dépose applicative',
-                    'img' => 'images/pro-projects/depose-applicative.png',
+                    'img' => 'images/pro-projects/depose-applicative.webp',
                     'summary' => 'dépose des applications Air-France avec différentes stack technique : application web, Rabit MQ, Batch, DNS, base de données, etc. avec interraction via Jira.',
                     'skill' => [
                         'ansible',
@@ -116,7 +116,7 @@ class UpdaterCv {
                 ],
                 [
                     'name' => 'Workpace',
-                    'img' => 'images/pro-projects/workspace.png',
+                    'img' => 'images/pro-projects/workspace.webp',
                     'summary' => 'application pour Nextcloud qui est une extension à l\'application Group Folders dont les partages sont étendues pour les utilisateurs non admin.',
                     'skill' => [
                         'php',
@@ -127,7 +127,7 @@ class UpdaterCv {
                 ],
                 [
                     'name' => 'Migration S3',
-                    'img' => 'images/pro-projects/migrate-s3-nc.png',
+                    'img' => 'images/pro-projects/migrate-s3-nc.webp',
                     'summary' => 'programme de migration des fichiers Nextcloud d\'une base de données vers du stockage S3.',
                     'skill' => [
                         'php',
@@ -145,7 +145,7 @@ class UpdaterCv {
             [
                 [
                     'name' => 'biblios',
-                    'img' => 'images/side-projects/biblios.png',
+                    'img' => 'images/side-projects/biblios.webp',
                     'summary' => 'gestion des livres avec une interface d\'administration.',
                     'skill' => [
                         'symfony',
@@ -155,7 +155,7 @@ class UpdaterCv {
                 ],
                 [
                     'name' => 'Address book sf',
-                    'img' => 'images/side-projects/address-book-symfony.png',
+                    'img' => 'images/side-projects/address-book-symfony.webp',
                     'summary' => 'plateforme web d\'un carnet d\'adresse.',
                     'skill' => [
                         'symfony',
@@ -165,7 +165,7 @@ class UpdaterCv {
                 ],
                 [
                     'name' => 'Dark force sf',
-                    'img' => 'images/side-projects/dark-force-sf.png',
+                    'img' => 'images/side-projects/dark-force-sf.webp',
                     'summary' => 'encyclopédie des personnages, vaisseaux et planètes de l\'univers de star wars.',
                     'skill' => [
                         'symfony',
@@ -175,7 +175,7 @@ class UpdaterCv {
                 ],
                 [
                     'name' => 'Photo galery',
-                    'img' => 'images/side-projects/photo-galery.png',
+                    'img' => 'images/side-projects/photo-galery.webp',
                     'summary' => 'album photo généré avec unsplash.',
                     'skill' => [
                         'symfony',
@@ -185,7 +185,7 @@ class UpdaterCv {
                 ],
                 [
                     'name' => 'Resume Symfony',
-                    'img' => 'images/side-projects/resume-symfony.png',
+                    'img' => 'images/side-projects/resume-symfony.webp',
                     'summary' => 'portfolio sous symfony avec TailwindCss.',
                     'skill' => [
                         'symfony',
