@@ -48,3 +48,16 @@ function status(): void
 {
     run('symfony server:status');
 }
+
+#[AsTask(description: 'Build the tailwind for dev', aliases: ['sf:build:dev'])]
+function buildDev(): void
+{
+    run('symfony console tailwind:build');
+}
+
+#[AsTask(description: 'Build the tailwind for prod', aliases: ['sf:build:prod'])]
+function buildProd(): void
+{
+    buildDev();
+    run('symfony console asset-map:compile');
+}
