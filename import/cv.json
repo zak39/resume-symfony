@@ -2,15 +2,15 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Baptiste Fotia",
-    "label": "Développeur Full Stack (PHP & JavaScript/Vue) chez Arawa",
+    "label": "Full Stack Developer (PHP & Vue)",
     "image": "",
     "email": "fotia.baptiste@hotmail.com",
     "phone": "0683025038",
     "url": "",
-    "summary": "Je suis développeur Full-Stack avec une expérience en développement Back-End notamment avec PHP, mais également dans le Front-End avec Vue.js. Je monte actuellement en compétence sur Symfony.",
+    "summary": "",
     "location": {
       "countryCode": "FR",
-      "address": "France"
+      "address": ""
     },
     "profiles": [
       {
@@ -102,11 +102,11 @@
       "courses": []
     },
     {
-      "institution": "Lycée Pré Saint-Sauveur",
-      "area": "Assistant Technique en Milieu Familial et Collectif (ATMFC)",
-      "studyType": "Certificat d'Aptitude Professionnel",
-      "startDate": "2007-12-31",
-      "endDate": "2009-12-31",
+      "institution": "Université Grenoble Alpes",
+      "area": "Administration et Sécurité des Réseaux (ASUR)",
+      "studyType": "Licence Professionnelle",
+      "startDate": "2016-12-31",
+      "endDate": "2017-12-31",
       "score": "",
       "courses": []
     },
@@ -120,11 +120,11 @@
       "courses": []
     },
     {
-      "institution": "Université Grenoble Alpes",
-      "area": "Administration et Sécurité des Réseaux (ASUR)",
-      "studyType": "Licence Professionnelle",
-      "startDate": "2016-12-31",
-      "endDate": "2017-12-31",
+      "institution": "Lycée Sainte-Marie Fénelon",
+      "area": "Système Électronique et Numérique (SEN)",
+      "studyType": "Baccalauréat Professionnel",
+      "startDate": "2011-12-31",
+      "endDate": "2012-12-31",
       "score": "",
       "courses": []
     },
@@ -138,11 +138,11 @@
       "courses": []
     },
     {
-      "institution": "Lycée Sainte-Marie Fénelon",
-      "area": "Système Électronique et Numérique (SEN)",
-      "studyType": "Baccalauréat Professionnel",
-      "startDate": "2011-12-31",
-      "endDate": "2012-12-31",
+      "institution": "Lycée Pré Saint-Sauveur",
+      "area": "Assistant Technique en Milieu Familial et Collectif (ATMFC)",
+      "studyType": "Certificat d'Aptitude Professionnel",
+      "startDate": "2007-12-31",
+      "endDate": "2009-12-31",
       "score": "",
       "courses": []
     }
@@ -150,39 +150,16 @@
   "awards": [],
   "certificates": [
     {
-      "name": "Démarrez votre projet avec Python",
+      "name": "Construisez un site web à l'aide du framework Symfony 7",
       "issuer": "OpenClassrooms",
-      "startDate": "2017-04-30",
-      "url": "https://openclassrooms.com/course-certificates/5407048025"
+      "startDate": "2024-06-30",
+      "url": "https://openclassrooms.com/fr/course-certificates/3038124817"
     },
     {
-      "name": "Découvrez les solutions CMS",
+      "name": "Écrivez du PHP maintenable avec les principes SOLID et les design patterns",
       "issuer": "OpenClassrooms",
-      "startDate": "2017-06-30",
-      "url": "https://openclassrooms.com/fr/course-certificates/6793263152"
-    },
-    {
-      "name": "Certificat de réussite : Apprenez à Apprendre",
-      "issuer": "OpenClassrooms",
-      "startDate": "2019-08-31"
-    },
-    {
-      "name": "Apprenez à programmer avec JavaScript",
-      "issuer": "OpenClassrooms",
-      "startDate": "2020-10-31",
-      "url": "https://openclassrooms.com/fr/course-certificates/1826362285"
-    },
-    {
-      "name": "Écrivez du JavaScript pour le web",
-      "issuer": "OpenClassrooms",
-      "startDate": "2020-11-30",
-      "url": "https://openclassrooms.com/fr/course-certificates/4671933145"
-    },
-    {
-      "name": "Créez une application web avec Vue.js",
-      "issuer": "OpenClassrooms",
-      "startDate": "2022-01-31",
-      "url": "https://openclassrooms.com/fr/course-certificates/6348268788"
+      "startDate": "2024-03-31",
+      "url": "https://openclassrooms.com/fr/course-certificates/7211844163"
     },
     {
       "name": "Programmez en orienté objet en PHP",
@@ -191,26 +168,60 @@
       "url": "https://openclassrooms.com/fr/course-certificates/8007246568"
     },
     {
-      "name": "Concevez votre site web avec PHP et MySQL",
-      "issuer": "OpenClassrooms",
-      "startDate": "2023-04-30",
-      "url": "https://openclassrooms.com/fr/course-certificates/8191435046"
-    },
-    {
       "name": "Adoptez une architecture MVC en PHP",
       "issuer": "OpenClassrooms",
       "startDate": "2023-05-31",
       "url": "https://openclassrooms.com/fr/course-certificates/2669196112"
     },
     {
-      "name": "Écrivez du PHP maintenable avec les principes SOLID et les design patterns",
+      "name": "Concevez votre site web avec PHP et MySQL",
       "issuer": "OpenClassrooms",
-      "startDate": "2024-03-31",
-      "url": "https://openclassrooms.com/fr/course-certificates/7211844163"
+      "startDate": "2023-04-30",
+      "url": "https://openclassrooms.com/fr/course-certificates/8191435046"
+    },
+    {
+      "name": "Créez une application web avec Vue.js",
+      "issuer": "OpenClassrooms",
+      "startDate": "2022-01-31",
+      "url": "https://openclassrooms.com/fr/course-certificates/6348268788"
+    },
+    {
+      "name": "Écrivez du JavaScript pour le web",
+      "issuer": "OpenClassrooms",
+      "startDate": "2020-11-30",
+      "url": "https://openclassrooms.com/fr/course-certificates/4671933145"
+    },
+    {
+      "name": "Apprenez à programmer avec JavaScript",
+      "issuer": "OpenClassrooms",
+      "startDate": "2020-10-31",
+      "url": "https://openclassrooms.com/fr/course-certificates/1826362285"
+    },
+    {
+      "name": "Certificat de réussite : Apprenez à Apprendre",
+      "issuer": "OpenClassrooms",
+      "startDate": "2019-08-31"
+    },
+    {
+      "name": "Découvrez les solutions CMS",
+      "issuer": "OpenClassrooms",
+      "startDate": "2017-06-30",
+      "url": "https://openclassrooms.com/fr/course-certificates/6793263152"
+    },
+    {
+      "name": "Démarrez votre projet avec Python",
+      "issuer": "OpenClassrooms",
+      "startDate": "2017-04-30",
+      "url": "https://openclassrooms.com/course-certificates/5407048025"
     }
   ],
   "publications": [],
   "skills": [
+    {
+      "name": "Bootstrap",
+      "level": "",
+      "keywords": []
+    },
     {
       "name": "Framework Symfony",
       "level": "",
@@ -232,22 +243,12 @@
       "keywords": []
     },
     {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "Git",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Bash",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "HTML5",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Debian",
       "level": "",
       "keywords": []
     },
@@ -257,7 +258,7 @@
       "keywords": []
     },
     {
-      "name": "Gitlab",
+      "name": "Laravel",
       "level": "",
       "keywords": []
     },
@@ -267,17 +268,7 @@
       "keywords": []
     },
     {
-      "name": "Scrum",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "CSS",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "DevOps",
+      "name": "Gitlab",
       "level": "",
       "keywords": []
     },
@@ -287,17 +278,37 @@
       "keywords": []
     },
     {
+      "name": "Scrum",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "Linux",
       "level": "",
       "keywords": []
     },
     {
-      "name": "JavaScript",
+      "name": "Debian",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Laravel",
+      "name": "DevOps",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bash",
       "level": "",
       "keywords": []
     }
