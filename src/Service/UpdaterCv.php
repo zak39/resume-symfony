@@ -152,6 +152,7 @@ class UpdaterCv {
                         'bootstrap',
                     ],
                     'url_repo' => 'https://github.com/zak39/biblios',
+                    'url_demo' => 'https://biblios.zakode.dev',
                 ],
                 [
                     'name' => 'Address book sf',
@@ -162,6 +163,7 @@ class UpdaterCv {
                         'bootstrap',
                     ],
                     'url_repo' => 'https://github.com/zak39/address-book-sf',
+                    'url_demo' => 'https://address-book.zakode.dev',
                 ],
                 [
                     'name' => 'Dark force sf',
@@ -172,6 +174,7 @@ class UpdaterCv {
                         'PicoCSS',
                     ],
                     'url_repo' => 'https://github.com/zak39/dark-force-sf',
+                    'url_demo' => 'https://dark-force.zakode.dev',
                 ],
                 [
                     'name' => 'Job board sf',
@@ -182,6 +185,7 @@ class UpdaterCv {
                         'tailwind',
                     ],
                     'url_repo' => 'https://github.com/zak39/job-board-sf/',
+                    'url_demo' => 'https://job-board.zakode.dev',
                 ],
                 [
                     'name' => 'Photo galery',
@@ -192,6 +196,7 @@ class UpdaterCv {
                         'bootstrap',
                     ],
                     'url_repo' => 'https://github.com/zak39/photo-galery',
+                    'url_demo' => 'https://photo-gallery.zakode.dev',
                 ],
                 [
                     'name' => 'Resume Symfony',
@@ -202,6 +207,7 @@ class UpdaterCv {
                         'tailwind',
                     ],
                     'url_repo' => 'https://github.com/zak39/resume-symfony',
+                    'url_demo' => '#',
                 ],
             ]
         ;

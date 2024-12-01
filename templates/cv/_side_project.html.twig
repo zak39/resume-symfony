@@ -18,6 +18,11 @@
                         <a href={{ project.url_repo }} alt={{ project.name }}>
                             <button class="btn btn-sm btn-outline btn-primary">voir le projet</button>
                         </a>
+                        {% if not project.url_demo == '' %}
+                            <a href={{ project.url_demo }} alt={{ project.name }}>
+                                <button class="btn btn-sm btn-outline btn-secondary-content">voir la demo</button>
+                            </a>
+                        {% endif %}
                     </div>
                 {% endif %}
                 <div class="card-actions justify-end">
