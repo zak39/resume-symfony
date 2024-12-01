@@ -174,6 +174,16 @@ class UpdaterCv {
                     'url_repo' => 'https://github.com/zak39/dark-force-sf',
                 ],
                 [
+                    'name' => 'Job board sf',
+                    'img' => 'images/side-projects/job-board-sf.webp',
+                    'summary' => 'des opportunités professionnelles à portée de main avec cette application symfony.',
+                    'skill' => [
+                        'symfony',
+                        'tailwind',
+                    ],
+                    'url_repo' => 'https://github.com/zak39/job-board-sf/',
+                ],
+                [
                     'name' => 'Photo galery',
                     'img' => 'images/side-projects/photo-galery.webp',
                     'summary' => 'album photo généré avec unsplash.',
@@ -199,6 +209,9 @@ class UpdaterCv {
         return $cv;
     }
 
+    /**
+     * Don't use this function for now to leave certificates ordered in descending order.
+     */
     public function reverseOrderCertificates(array $cv): array {
         $cv['certificates'] = array_reverse($cv['certificates']);
         return $cv;
