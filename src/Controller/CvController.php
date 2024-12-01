@@ -28,7 +28,6 @@ class CvController extends AbstractController
         $cv = $this->updater->updateSkills($cv);
         $cv = $this->updater->addProProject($cv);
         $cv = $this->updater->addSideProject($cv);
-        $cv = $this->updater->reverseOrderCertificates($cv);
         $cv = $this->updater->addSummary($cv);
         $cv = $this->updater->addPseudo($cv);
 
