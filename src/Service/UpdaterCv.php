@@ -209,6 +209,17 @@ class UpdaterCv {
                     'url_repo' => 'https://github.com/zak39/resume-symfony',
                     'url_demo' => '#',
                 ],
+                [
+                    'name' => 'Share Promo Code',
+                    'img' => 'images/side-projects/share-promo-code.webp',
+                    'summary' => 'plateforme de gestion de code promotionnel avec système de création et d\'édition.',
+                    'skill' => [
+                        'symfony',
+                        'PicoCSS',
+                    ],
+                    'url_repo' => 'https://github.com/zak39/share-promo-code',
+                    'url_demo' => 'https://share-promo-code.zakode.dev',
+                ],
             ]
         ;
 
